@@ -58,7 +58,7 @@ export class HomeComponent {
 
   addProduct(product: Product) {
     this.productsService
-      .addProduct(`http://localhost:3000/clothes/${id}`, product)
+      .addProduct(`http://localhost:3000/clothes`, product)
       .subscribe({
         next: (data) => {
           console.log(data);
