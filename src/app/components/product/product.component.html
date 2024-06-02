@@ -1,4 +1,3 @@
-<!-- <p>{{ product.name }}</p> -->
 <div class="column gap-1 wrapper">
   <img [src]="product.image" alt="Product Thumbnail" />
 
@@ -7,10 +6,31 @@
     <span class="price-label">Price:</span>
     <span class="price">{{ product.price }}</span>
   </div>
-
+  \
+  <!-- Product Rating (PrimeNg rating component) -->
   <p-rating
     [(ngModel)]="product.rating"
     [readonly]="true"
     iconCancelClass="hidden"
   />
+
+  <!-- Action buttons -->
+  <div class="row gap-05">
+    <button
+      type="button"
+      pButton
+      icon="pi pi-pencil"
+      (click)="editProduct()"
+      label="Edit"
+    ></button>
+    <button
+      type="button"
+      pButton
+      icon="pi pi-trash"
+      (click)="deleteProduct()"
+      label="Delete"
+      class="p-button-danger"
+      #deleteButton
+    ></button>
+  </div>
 </div>
