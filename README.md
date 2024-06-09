@@ -1,27 +1,32 @@
-# FirstProject
+<h1 align="center">
+  First Angular Project
+  <br>
+</h1>
 
+# Acknowledgements
+This project is based on the tutorial from YouTube Angular Crash Course [Code Deck](https://www.youtube.com/watch?v=f7BJFTEbc10)
+<br>
+[Original Repo](https://github.com/thecodedeck/angular-cc-1-client)
+<br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<br>
+Plus, the original project creator made a Backend with Node.js with Express.
+<br>
+And here is the link of the backend repo to provide :
+<br>
+https://github.com/thecodedeck/angular-cc-1-server
 
-## Code scaffolding
+## Getting Started 
+### Pre-requisites
+Before you begin, ensure you have met the following requirements:
+* You have installed the latest version of Node.js and npm
+* Angular CLI : `npm install -g @angular/cli`
+* [PrimeNG](https://primeng.org/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## License
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is licensed under the MIT License.
